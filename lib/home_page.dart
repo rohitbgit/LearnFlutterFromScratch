@@ -7,9 +7,9 @@ class MyHomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Home Page Design"),
+        title: const Text("Home Page Design"),
       ),
-      body: Center(
+      body: const Center(
         child: Text("Welcome to the flutter"),
       ),
     );
