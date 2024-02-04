@@ -12,10 +12,9 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: const MyHomePage(),
-      themeMode: ThemeMode.dark,
-      theme: ThemeData(
-        brightness: Brightness.dark,
-      ),
+      themeMode: ThemeMode.light,
+      theme: ThemeData(primarySwatch: Colors.blueGrey),
+      routes: {'/MyHomePage': (context) => const MyHomePage()},
     );
   }
 }

@@ -10,7 +10,13 @@ class MyHomePage extends StatelessWidget {
         title: const Text("Home Page Design"),
       ),
       body: const Center(
-        child: Text("Welcome to the flutter"),
+        child: Text(
+          "Welcome to the flutter",
+          style: TextStyle(
+              fontSize: 30,
+              fontStyle: FontStyle.italic,
+              fontWeight: FontWeight.bold),
+        ),
       ),
     );
   }
