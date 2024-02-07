@@ -1,9 +1,16 @@
 import "package:flutter/material.dart";
 import "package:flutter_app_tutorial/home_page.dart";
 
-class MyLoginPage extends StatelessWidget {
+class MyLoginPage extends StatefulWidget {
   const MyLoginPage({super.key});
 
+  @override
+  State<MyLoginPage> createState() => _MyLoginPageState();
+}
+
+class _MyLoginPageState extends State<MyLoginPage> {
+  String name = "";
+  bool changeButton = false;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -16,7 +23,7 @@ class MyLoginPage extends StatelessWidget {
               Image.asset("assets/images/logins.png"),
               SizedBox(height: 12),
               Text(
-                "Welcome to Login Page",
+                "Welcome to $name",
                 style: TextStyle(
                     fontSize: 20,
                     color: Colors.blue,
@@ -31,6 +38,11 @@ class MyLoginPage extends StatelessWidget {
                     TextFormField(
                       decoration: InputDecoration(
                           hintText: "Enter Username", labelText: "Username"),
+                      onChanged: (value) {
+                        setState(() {
+                          name = value;
+                        });
+                      },
                     ),
                     TextFormField(
                       obscureText: true,
@@ -41,14 +53,48 @@ class MyLoginPage extends StatelessWidget {
                 ),
               ),
               SizedBox(height: 20),
-              ElevatedButton(
-                  onPressed: () {
-                    Navigator.push(context,
-                        MaterialPageRoute(builder: (context) => MyHomePage()));
-                    print("navigate to main screen");
-                  },
-                  child: Text("Login"),
-                  style: TextButton.styleFrom(minimumSize: Size(200, 50)))
+
+              InkWell(
+                onTap: () async {
+                  setState(() {
+                    changeButton = true;
+                  });
+
+                  await Future.delayed(Duration(seconds: 2));
+
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => MyHomePage()));
+                },
+                child: AnimatedContainer(
+                  duration: const Duration(seconds: 1),
+                  width: changeButton ? 50 : 150,
+                  height: 50,
+                  alignment: Alignment.center,
+                  decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(changeButton ? 30 : 8),
+                    color: Colors.blue,
+                  ),
+                  child: changeButton
+                      ? const Icon(
+                          Icons.done,
+                          color: Colors.white,
+                        )
+                      : const Text(
+                          "Login",
+                          style: TextStyle(fontSize: 16, color: Colors.white),
+                        ),
+                ),
+              )
+
+              // ElevatedButton(
+              //     onPressed: () {
+              //       Navigator.push(context,
+              //           MaterialPageRoute(builder: (context) => MyHomePage()));
+              //       print("navigate to main screen");
+              //     },
+              //     child: Text("Login"),
+              //     style: TextButton.styleFrom(minimumSize: Size(200, 50))
+              //     )
             ],
           ),
         ));
