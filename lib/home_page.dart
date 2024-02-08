@@ -8,7 +8,12 @@ class MyHomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Welcome to Main Screen"),
+        title: Center(
+          child: Text(
+            "Catalog App",
+            style: TextStyle(color: Colors.black),
+          ),
+        ),
       ),
       body: Center(
         child: Text("Welcome to Home Page My Dear!!!"),
