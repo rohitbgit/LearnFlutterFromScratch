@@ -1,0 +1,74 @@
+{
+"products" :[
+{
+    "id" : "E001",
+	"name": "Product 1",
+	"detail": "Lorem ipsum dolor sit amet",
+	"price": "699",
+    "color" : "#3350a",
+	"image": ""
+},{
+    "id" : "E002",
+	"name": "Product 2",
+	"detail": "Lorem ipsum dolor sit amet",
+	"price": "199",
+    "color" : "#3350a",
+	"image": ""
+},{
+    "id" : "E003",
+	"name": "Product 3",
+	"detail": "Lorem ipsum dolor sit amet",
+	"price": "599",
+    "color" : "#3350a",
+	"image": ""
+},{
+    "id" : "E004",
+	"name": "Product 4",
+	"detail": "Lorem ipsum dolor sit amet",
+	"price": "199",
+    "color" : "#3350a",
+	"image": ""
+},{
+    "id" : "E005",
+	"name": "Product 5",
+	"detail": "Lorem ipsum dolor sit amet",
+	"price": "990",
+    "color" : "#3350a",
+	"image": ""
+},{
+    "id" : "E006",
+	"name": "Product 6",
+	"detail": "Lorem ipsum dolor sit amet",
+	"price": "399",
+    "color" : "#3350a",
+	"image": ""
+},{
+    "id" : "E007",
+	"name": "Product 7",
+	"detail": "Lorem ipsum dolor sit amet",
+	"price": "99",
+    "color" : "#3350a",
+	"image": ""
+},{
+    "id" : "E008",
+	"name": "Product 8",
+	"detail": "Lorem ipsum dolor sit amet",
+	"price": "1999",
+    "color" : "#3350a",
+	"image": ""
+},{
+    "id" : "E009",
+	"name": "Product 9",
+	"detail": "Lorem ipsum dolor sit amet",
+	"price": "999",
+    "color" : "#3350a",
+	"image": ""
+},{
+    "id" : "E010",
+	"name": "Product 10",
+	"detail": "Lorem ipsum dolor sit amet",
+	"price": "500",
+    "color" : "#3350a",
+	"image": ""
+}]
+}
