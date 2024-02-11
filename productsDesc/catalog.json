@@ -2,73 +2,73 @@
 "products" :[
 {
     "id" : "E001",
-	"name": "Product 1",
+	"name": "IPhone 12 Pro",
 	"detail": "Lorem ipsum dolor sit amet",
-	"price": "699",
-    "color" : "#3350a",
-	"image": ""
+	"price": 59900,
+    "color" : "#3350a1",
+	"image": "https://freepngimg.com/download/apple_iphone/133290-11-pic-apple-iphone-free-download-png-hd.png"
 },{
     "id" : "E002",
 	"name": "Product 2",
 	"detail": "Lorem ipsum dolor sit amet",
-	"price": "199",
-    "color" : "#3350a",
-	"image": ""
+	"price": 49900,
+    "color" : "#3350a2",
+	"image": "https://cdn.cs.1worldsync.com/79/80/7980d95a-e8d0-46d1-8246-62007636508d.jpg"
 },{
     "id" : "E003",
 	"name": "Product 3",
 	"detail": "Lorem ipsum dolor sit amet",
-	"price": "599",
-    "color" : "#3350a",
-	"image": ""
+	"price": 79990,
+    "color" : "#3350a3",
+	"image": "https://images.samsung.com/in/smartphones/galaxy-s23/buy/product_color_green.png?imwidth=480"
 },{
     "id" : "E004",
 	"name": "Product 4",
 	"detail": "Lorem ipsum dolor sit amet",
-	"price": "199",
-    "color" : "#3350a",
-	"image": ""
+	"price": 199,
+    "color" : "#3350a4",
+	"image": "https://www.asus.com/media/Odin/Websites/global/ProductLine/20200824120814.jpg"
 },{
     "id" : "E005",
 	"name": "Product 5",
 	"detail": "Lorem ipsum dolor sit amet",
-	"price": "990",
-    "color" : "#3350a",
-	"image": ""
+	"price": 990,
+    "color" : "#3350a5",
+	"image": "https://m.media-amazon.com/images/I/61u1VALn6JL._AC_UF1000,1000_QL80_.jpg"
 },{
     "id" : "E006",
 	"name": "Product 6",
 	"detail": "Lorem ipsum dolor sit amet",
-	"price": "399",
-    "color" : "#3350a",
-	"image": ""
+	"price": 399,
+    "color" : "#3350a6",
+	"image": "https://5.imimg.com/data5/SELLER/Default/2021/3/IO/BR/GT/99149733/1-500x500.jpg"
 },{
     "id" : "E007",
 	"name": "Product 7",
 	"detail": "Lorem ipsum dolor sit amet",
-	"price": "99",
-    "color" : "#3350a",
-	"image": ""
+	"price": 99,
+    "color" : "#3350a8",
+	"image": "https://freepngimg.com/download/apple_iphone/133290-11-pic-apple-iphone-free-download-png-hd.png"
 },{
     "id" : "E008",
 	"name": "Product 8",
 	"detail": "Lorem ipsum dolor sit amet",
-	"price": "1999",
-    "color" : "#3350a",
-	"image": ""
+	"price": 1999,
+    "color" : "#3350a0",
+	"image": "https://cdn.cs.1worldsync.com/79/80/7980d95a-e8d0-46d1-8246-62007636508d.jpg"
 },{
     "id" : "E009",
 	"name": "Product 9",
 	"detail": "Lorem ipsum dolor sit amet",
-	"price": "999",
-    "color" : "#3350a",
-	"image": ""
+	"price": 999,
+    "color" : "#3350a9",
+	"image": "https://5.imimg.com/data5/SELLER/Default/2021/3/IO/BR/GT/99149733/1-500x500.jpg"
 },{
     "id" : "E010",
 	"name": "Product 10",
 	"detail": "Lorem ipsum dolor sit amet",
-	"price": "500",
-    "color" : "#3350a",
-	"image": ""
+	"price": 500,
+    "color" : "#33510a",
+	"image": "https://www.asus.com/media/Odin/Websites/global/ProductLine/20200824120814.jpg"
 }]
 }
